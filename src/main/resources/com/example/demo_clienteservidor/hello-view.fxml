@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo_clienteservidor.Interfaz">
+   <children>
+      <Text layoutX="81.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CLIENTE:" />
+      <TextField fx:id="escribirCliente" layoutX="42.0" layoutY="54.0" text="ingrese el nombre" />
+      <Button fx:id="btnEnviar" layoutX="45.0" layoutY="200.0" mnemonicParsing="false" onAction="#btn" prefHeight="40.0" prefWidth="118.0" text="Enviar" textFill="#261818">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Text layoutX="88.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="HOST:" />
+      <TextField fx:id="escribirHost" layoutX="42.0" layoutY="106.0" text="localhost" />
+      <Text layoutX="81.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PUERTO:" />
+      <TextField fx:id="escribirPuerto" layoutX="42.0" layoutY="158.0" text="5050" />
+      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#cambiarPg" text="pagina 2" />
+   </children>
+</Pane>
